@@ -1,0 +1,17 @@
+{
+  "name": "cotton-more/simple-souring",
+  "description": "Simple event sourcing library",
+  "minimum-stability": "alpha",
+  "license": "MIT",
+  "suggest": {
+    "eventsauce/eventsauce": "Better use more robust, stable and tested library"
+  },
+  "require": {
+    "php": "^7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "CottonMore\\SimpleSourcing\\": "src/"
+    }
+  }
+}
